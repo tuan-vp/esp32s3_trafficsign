@@ -1,0 +1,14 @@
+torch
+torchvision
+numpy<2
+opencv-python
+Pillow
+pandas
+onnx<1.19
+onnxruntime
+tensorflow==2.14.1; python_version < "3.12"
+tensorflow>=2.16,<2.21; python_version >= "3.12"
+ml-dtypes==0.2.0; python_version < "3.12"
+onnx-tf==1.10.0; python_version < "3.12"
+tensorflow-addons==0.22.0; python_version < "3.12"
+tensorflow-probability==0.22.1; python_version < "3.12"
